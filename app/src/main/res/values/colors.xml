@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B10006</color>
+    <color name="colorPrimaryDark">#3A0000</color>
+    <color name="colorAccent">#DA3838</color>
+
+    <color name="ratingFillColor">#FF0000</color>
+    <color name="ratingStrokeColor">#DDDDA0</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#9D1116</color>
+    <color name="deepred">#83060A</color>
+    <color name="black">#000000</color>
+    <color name="WhiteAsh">#CFCFCF</color>
+    <color name="Ash">#555555</color>
+    <color name="specialbackground">#99F2F2F2</color>
+    <color name="creamRed">#FAEBEB</color>
+    <color name="darkGreen">#025504</color>
+</resources>

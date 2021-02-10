@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Esellers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">SignIn</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="action_Cart">cart</string>
+    <string name="action_Notification">notification</string>
+
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer close</string>
+</resources>

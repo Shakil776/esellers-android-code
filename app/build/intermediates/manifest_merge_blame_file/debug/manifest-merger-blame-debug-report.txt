@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.bd.esellers"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:11:22-64
+18
+19    <application
+19-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:13:5-51:19
+20        android:allowBackup="true"
+20-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:14:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.2.0] C:\Users\A\.gradle\caches\transforms-2\files-2.1\4527d81fa1dab2c4adef56282f6f51b4\core-1.2.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:hardwareAccelerated="true"
+23-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:15:9-43
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:16:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:17:9-41
+26        android:largeHeap="true"
+26-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:18:9-33
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:19:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:20:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme"
+30-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:21:9-40
+31        android:usesCleartextTraffic="true" >
+31-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:22:9-44
+32        <activity
+32-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:23:9-24:58
+33            android:name="com.bd.esellers.userProfile.ProfileActivity"
+33-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:23:19-62
+34            android:theme="@style/AppTheme.NoActionBar" />
+34-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:24:13-56
+35        <activity
+35-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:25:9-27:59
+36            android:name="com.bd.esellers.order.OrderActivity"
+36-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:26:13-48
+37            android:theme="@style/AppTheme.NoActionBar" />
+37-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:27:13-56
+38        <activity
+38-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:29:9-32:48
+39            android:name="com.bd.esellers.cart.CartActivity"
+39-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:30:13-46
+40            android:configChanges="screenSize|orientation|keyboard"
+40-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:31:13-68
+41            android:theme="@style/AuthTheme" />
+41-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:32:13-45
+42        <activity
+42-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:33:9-36:48
+43            android:name="com.bd.esellers.userAuth.AuthActivity"
+43-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:34:13-50
+44            android:configChanges="screenSize|orientation|keyboard"
+44-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:35:13-68
+45            android:theme="@style/AuthTheme" />
+45-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:36:13-45
+46        <activity
+46-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:37:9-47:20
+47            android:name="com.bd.esellers.mainApp.MainActivity"
+47-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:38:13-49
+48            android:configChanges="screenSize|orientation|keyboard"
+48-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:39:13-68
+49            android:theme="@style/AppTheme.NoActionBar" >
+49-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:40:13-56
+50            <intent-filter>
+50-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:41:13-46:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:42:17-69
+51-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:42:25-66
+52                <action android:name="android.intent.action.VIEW" />
+52-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:43:17-69
+52-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:43:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:45:17-77
+54-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:45:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:48:9-50:59
+58            android:name="com.bd.esellers.product.ProductDetailsActivity"
+58-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:49:13-59
+59            android:theme="@style/AppTheme.NoActionBar" />
+59-->C:\Users\A\Desktop\Esellers\app\src\main\AndroidManifest.xml:50:13-56
+60
+61        <provider
+61-->[com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-2\files-2.1\af50c99980f6e4214341d9fe764b8272\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+62            android:name="com.squareup.picasso.PicassoProvider"
+62-->[com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-2\files-2.1\af50c99980f6e4214341d9fe764b8272\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+63            android:authorities="com.bd.esellers.com.squareup.picasso"
+63-->[com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-2\files-2.1\af50c99980f6e4214341d9fe764b8272\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+64            android:exported="false" />
+64-->[com.squareup.picasso:picasso:2.71828] C:\Users\A\.gradle\caches\transforms-2\files-2.1\af50c99980f6e4214341d9fe764b8272\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+65    </application>
+66
+67</manifest>

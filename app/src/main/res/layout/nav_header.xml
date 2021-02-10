@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/ic_head"
+    android:paddingTop="20dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/imgLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/nav_user_photoIV"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/ic_user"
+            android:background="@drawable/ic_profileimage" />
+
+        <TextView
+            android:id="@+id/nav_usernameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guest User"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:id="@+id/nav_user_emailTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="guest@mail.com" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_loginLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button2"
+        android:clickable="true"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/header_auth_statusTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/header_auth_statusIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:src="@drawable/ic_login_white"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

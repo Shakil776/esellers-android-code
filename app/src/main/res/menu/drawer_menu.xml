@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_men"
+            android:icon="@drawable/men"
+            android:title="Men's Collections" />
+
+        <item
+            android:id="@+id/nav_women"
+            android:icon="@drawable/women"
+            android:title="Women's Collections" />
+
+        <item
+            android:id="@+id/nav_kids"
+            android:icon="@drawable/kids2"
+            android:title="Kids Zone" />
+
+        <item
+            android:id="@+id/nav_cosmetics"
+            android:icon="@drawable/ic_cosmetics"
+            android:title="Cosmetics" />
+
+        <item
+            android:id="@+id/nav_bag"
+            android:icon="@drawable/ic_trolly"
+            android:title="Bag and Baggage" />
+
+        <item
+            android:id="@+id/nav_home_app"
+            android:icon="@drawable/ic_tv"
+            android:title="Home Appliance" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_mobile"-->
+<!--            android:icon="@drawable/ic_mobile"-->
+<!--            android:title="Mobile Phone" />-->
+
+
+
+        <item android:title="Customer">
+            <menu>
+                <item
+                    android:id="@+id/nav_cart"
+                    android:icon="@drawable/cart2"
+                    android:title="My Cart" />
+
+                <item
+                    android:id="@+id/nav_order"
+                    android:icon="@drawable/order2"
+                    android:title="My Order" />
+
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile_24dp"
+                    android:title="My Profile" />
+            </menu>
+        </item>
+
+    </group>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--&lt;!&ndash;            <item&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/nav_policy"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:icon="@drawable/policy2"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:title="Policy" />&ndash;&gt;-->
+<!--            <item-->
+<!--                android:id="@+id/nav_about"-->
+<!--                android:icon="@drawable/ic_people_black_24dp"-->
+<!--                android:title="About Us" />-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
